@@ -50,7 +50,7 @@ CryptoCLI.exe encryptdir ./encrypted_folder master.key --dirDest ./decrypted_fol
 
 ## Python SDK
 
-If the source code is retained, the core `FileEncryption` class can be integrated directly into other Python applications. It supports dynamic IV generation and handles memory buffering automatically.
+The core `FileEncryption` class can be integrated directly into other Python applications. It supports dynamic IV generation and handles memory buffering automatically.
 
 ```python
 from cryptography.hazmat.primitives.ciphers import algorithms, modes
